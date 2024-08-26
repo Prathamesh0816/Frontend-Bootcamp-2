@@ -13,12 +13,14 @@ const way3 = (num3) =>{
 console.log(addBy7(11));
 console.log(way2(12));
 console.log(way3(13));
+
 let num1=parseInt(prompt("Enter Number 1 : "));
 let num2=parseInt(prompt("Enter Number 2 : "));
 function add(num1,num2){
     return num1+num2;
 }
-alert("Addition is : "+add(num1,num2));*/
+alert("Addition is : "+add(num1,num2));
+
 let num=parseInt(prompt("Enter any number : "));
 function isPrime(num){
     if(num==0 && num==1){
@@ -33,4 +35,15 @@ function isPrime(num){
 }
 alert(`${num}`+" Is Prime ");
 }
-isPrime(num);
+isPrime(num);*/
+
+const num = parseInt(prompt("Enter Any Number : "));
+function sumOfDigits(num){
+    let sum = 0;
+    while(num>0){
+        sum = sum + num % 10;
+        num = Math.floor(num/10);
+        }
+    alert(`The Sum Of Digits Is : ${sum}`);
+}
+sumOfDigits(num);
