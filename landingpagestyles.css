@@ -1,0 +1,102 @@
+.header{
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 2vh 2vw;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 30px;
+    padding-right: 4px;
+}
+.main{
+    display: flex;
+    background-color: #1F2937;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 2vw 12vh;
+}
+.para1{
+    font-weight: normal;
+    font-size: 18px;
+}
+.button1{
+    color: #E5E7EB;
+    background-color: #3882f6;
+}
+.info h1{
+    text-align: center;
+    color: #1F2937 ;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    
+}
+.info-parent{
+    display: flex;
+    padding: 0 12vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info-child{
+    width: 200px;
+}
+.box{
+    height: 160px;
+    width: 160px;
+    border: 2px solid blue;
+    font-size: 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.para2{
+    text-align: center;
+    font-style: italic;
+    font-size: 26px;
+}
+.para3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+    padding-right: 500px;
+}
+.signin-parent{
+    background-color: #3882f6;
+    height: 400px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.signin-child{
+    display: flex;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer{
+    text-align: center;
+    background-color: #1F2937 ;
+    color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.button2{
+    background-color: #3882f6;
+    border: 1px solid white;
+}
+
